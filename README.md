@@ -27,52 +27,37 @@ Este proyecto es un sistema de votación descentralizado construido sobre la blo
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/sistema-votacion-blockchain.git
-
-   Instala las dependencias:
-
-bash
-Copy
+2. Instala las dependencias:
+```bash
 cd sistema-votacion-blockchain
 npm install
-Configura tu entorno:
-
-Crea un archivo .env en la raíz del proyecto y agrega las variables de entorno necesarias (por ejemplo, la URL del RPC).
-
-Inicia la aplicación:
-
-bash
-Copy
+```
+3. Inicia la aplicación:
+```bash
 npm start
-Despliegue del Contrato Inteligente
-Compila el contrato:
-
-bash
-Copy
+```
+### Despliegue del Contrato Inteligente
+1. Compila el contrato:
+```bash
 truffle compile
-Despliega el contrato en la red de Sonic Labs (o la red que estés utilizando):
-
-bash
-Copy
+```
+2. Despliega el contrato en la red de Sonic Labs (o la red que estés utilizando):
+```
+```bash
 truffle migrate --network sonic
-Uso
-Conecta tu billetera (MetaMask) a la red correcta.
+```
+### Uso
+1. Conecta tu billetera (MetaMask) a la red correcta.
+2. Selecciona una propuesta y vota.
+3. Verifica los resultados en tiempo real.
 
-Selecciona una propuesta y vota.
-
-Verifica los resultados en tiempo real.
-
-Contribución
+### Contribución
 Si deseas contribuir a este proyecto, sigue estos pasos:
+1. Haz un fork del repositorio.
+2. Crea una rama con tu nueva funcionalidad (git checkout -b nueva-funcionalidad).
+3. Realiza tus cambios y haz commit (git commit -m "Agrega nueva funcionalidad").
+4. Sube los cambios a tu repositorio (git push origin nueva-funcionalidad).
+4. Abre un Pull Request en GitHub.
 
-Haz un fork del repositorio.
-
-Crea una rama con tu nueva funcionalidad (git checkout -b nueva-funcionalidad).
-
-Realiza tus cambios y haz commit (git commit -m "Agrega nueva funcionalidad").
-
-Sube los cambios a tu repositorio (git push origin nueva-funcionalidad).
-
-Abre un Pull Request en GitHub.
-
-Licencia
+### Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
