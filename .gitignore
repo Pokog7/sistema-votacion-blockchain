@@ -1,0 +1,5 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar build de Truffle
+build/
